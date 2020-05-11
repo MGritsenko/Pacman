@@ -3,4 +3,4 @@ file(GLOB PACMAN_SRC
     "*.cpp"
 )
 
-add_library(src STATIC ${PACMAN_SRC})
+add_executable(${PROJECT_NAME} ${PACMAN_SRC})
